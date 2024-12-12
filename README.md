@@ -29,4 +29,4 @@ To do so, we have done the following:
 
 The following represents our project structure:
 
-- **[`additional_data/`](./additional_data.ipynb)**: Data manipulation
+- **[`addittional_data/`](./addittional_data.ipynb)**: Image manipulation to generate an extensive training data set
