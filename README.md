@@ -39,3 +39,8 @@ The following represents our project structure:
 
 - **[`submission_to_mask/`](./submission_to_mask.py)**: Helper function converting from a submission format to a visualization format 
 
+- **[`Project_Report/`](./CS433_Project2_SFS.pdf)**: Project Report
+
+- **[`README.md`](./README.md)**: This README file
+
+
