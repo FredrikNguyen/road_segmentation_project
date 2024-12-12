@@ -16,5 +16,4 @@ To do so, we have done the following:
  * Color jittering
  * Horizontal flipping
 
-* 
-*
+* Implementing the 'model'
