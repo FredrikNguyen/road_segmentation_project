@@ -16,4 +16,7 @@ To do so, we have done the following:
     * Color jittering
     * Horizontal flipping
 
+* *The next points to be changed*
 * Implementing the 'model'
+* Analyzing the models using such figures
+* Predicting such results 
