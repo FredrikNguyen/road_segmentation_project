@@ -7,6 +7,7 @@ The aim of this project is to train a 'model classifier' that extracts roads in 
 To do so, we have done the following:
 
 * Manipulating the images given to generate more data and better the training of our 'model classifier'. We have handled this process by using various transformation techniques provided by `torchvision.transforms`. In particular we have multiplied our training images using 18 different transformations. Some of the transformations made are the subsequent: 
+
  * Resizing
  * Rotation
  * Affine transformation
