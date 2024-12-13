@@ -1,6 +1,6 @@
 # Road segmentation from satellite images using 'machine learning techniques'
 
-*TO CHANGE: all instances of '' that adress machine learnign model, to the model we have actually used as our classifier*
+*TO CHANGE: all instances of ' ' that adresses a certain machine learning model, to the model we have actually used as our classifier*
 
 ## About the project
 
@@ -41,6 +41,41 @@ The following represents our project structure:
 
 - **[`Project_Report/`](./CS433_Project2_SFS.pdf)**: Project Report
 
-- **[`README.md`](./README.md)**: This README file
+- **[`README`](./README.md)**: This README file
 
 
+## Installation Instructions
+
+In contrast to Project1, for Project2 we have had the need to install additional machine learning libraries apart from the basic ones. Having been familiriazed with the basic machine learning implementations we no longer had to create them, but simply use them from the more advanced libraries that provide them.
+
+1. Python~=3.13.0
+    
+    You can either download [Python](https://www.python.org/downloads/) directly or through an [Anaconda](https://www.anaconda.com/download/) distribution.
+
+The following libraries are downloaded assuming we have installed python through Anaconda.
+
+2. numpy~=2.1.2
+    
+    Run on a python terminal `pip install numpy` and it will download the latest version.
+
+3. matplotlib~=3.9.2
+    
+    Run on a python terminal `pip install matplotlib` and it will download the latest version.
+
+4. sklearn~=1.5.2
+
+    Run on a python terminal `pip install scikit-learn` and it will download the latest version.
+    
+5. pytorch~=2.5.1
+
+    [Tutorial](https://www.youtube.com/watch?v=STYdcBIT9H8) on how to install PyTorch in Anaconda on both CPU and GPU, downloading CUDA for the latter.
+
+6. tensorflow~=2.16.1
+
+    [Tutorial](https://www.youtube.com/watch?v=QJjHc2iSeBc) on how to install TensorFlow in Anaconda.
+
+
+
+## Known Issues
+
+'To complete'
