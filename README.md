@@ -4,7 +4,7 @@
 
 ## About the project
 
-The aim of this project is to train a classifier, using Convolutional Neural Networks (CNN's), and in particular U-nets; that extract roads in a set of aerial images aquired from GoogleMaps. From each image provided to train the model, there is a ground-truth form of that image where each pixel is labeled as road or background.  We are also provided by a set of images, from where we will test our model by producing our classifier's ground-truth version of those images. Essentially the goal reduces to train our classifier to assign a label `road = 1`, `background = 0` to each pixel. 
+The aim of this project is to train a classifier, using Convolutional Neural Networks (CNN's), and in particular U-nets; that extracts roads in a set of aerial images aquired from GoogleMaps. From each image provided to train the model, there is a ground-truth form of that image where each pixel is labeled as road or background.  We are also provided by a set of images, from where we will test our model by producing our classifier's ground-truth version of those images. Essentially the goal reduces to train our classifier to assign a label `road = 1`, `background = 0` to each pixel. 
 
 To do so, we have done the following:
 
@@ -15,11 +15,12 @@ To do so, we have done the following:
     * Left or right shears of maximum 5 degrees `p = 0.3`
     * Distortions that can make roads appear 'wavy' `p = 0.5`
 
-* Implementing a U-net classifier, a particular type of CNN and one of the most widely used models for image segmentation, while training it using the images we were given.
-* Analyzing the model and using various performance metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. While comparing the results of our model with the real ground truth form of those images, which the model is trained on.
+* Implementing a U-net classifier model, a particular type of CNN and one of the most widely used models for image segmentation, while comparing the results of our implementation with the real ground truth form of those training images.
+* Analyzing the model through the test images and using various performance metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. 
 * Predicting perceivable drivable regions from images of GoogleMaps.
 
 ## Figure representation
+
 
 
 ## Project structure
