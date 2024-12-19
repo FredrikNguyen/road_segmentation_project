@@ -38,10 +38,14 @@ The following represents our project structure:
 - **[`Images`](./Images/)**: Contains any image needed for the project display in GitHub
   - **[`Model_prediction_evolution`](./Images/Model_prediction_evolution.png)** Image used for the README figure representation
 
-- **[`old model`](./old_model/)**: Contains the old U-net models, and our previous efforts to manipulate the data
+- **[`old_model`](./old_model/)**: Contains the old U-net models, and our previous efforts to manipulate the data
   - **[`additional_data`](./old_model/addittional_data.ipynb)**: Previous data manipulation
   - **[`model_keras_unet`](./old_model/model_keras_unet.ipynb)**: First U-net model: Model1 using tensorflow
   - **[`model_pytorch_unet`](./old_model/model_pytorch_unet.ipynb)**: Second U-net model: Model2 using pytorch
+
+- **[`saved_model`](./saved_model/)**: Contains the new U-net model, we cannot currently uploaded as it is too heavy
+
+
 
 - **[`mask_to_submission`](./mask_to_submission.py)**: Helper function converting from a visualization format to a submission format 
 
