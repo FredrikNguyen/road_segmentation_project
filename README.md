@@ -29,22 +29,22 @@ The following figure displays the comparison of the predictions obtained with di
 The following represents our project structure:
 
 
-- **[`data/`](./data/)**: Contains the project's data
-  - **[`test/`](./data/test/)**: Contains all the images to test our model
-  - **[`training/`](./data/training/)**: Contains all the data necessary to train our model
-    - **[`gorundtruth/`](./data/training/groundtruth/)**: Contains the real ground-truth form of the training images
-    - **[`images/`](./data/training/images/)**: Contains all the images to train our model
+- **[`data`](./data/)**: Contains the project's data
+  - **[`test`](./data/test/)**: Contains all the images to test our model
+  - **[`training`](./data/training/)**: Contains all the data necessary to train our model
+    - **[`gorundtruth`](./data/training/groundtruth/)**: Contains the real ground-truth form of the training images
+    - **[`images`](./data/training/images/)**: Contains all the images to train our model
 
-- **[`Images/`](./Images/)**: Contains any image needed for the project display in GitHub
-  - **[`Model_prediction_evolution/`](./Images/Model_prediction_evolution.png)** Image used for the figure representation
+- **[`Images`](./Images/)**: Contains any image needed for the project display in GitHub
+  - **[`Model_prediction_evolution`](./Images/Model_prediction_evolution.png)** Image used for the figure representation
 
-- **[`model/`](./model.ipynb)**: 'Machine learning model' 'classifier'
+- **[`model`](./model.ipynb)**: 'Machine learning model' 'classifier'
 
-- **[`mask_to_submission/`](./mask_to_submission.py)**: Helper function converting from a visualization format to a submission format 
+- **[`mask_to_submission`](./mask_to_submission.py)**: Helper function converting from a visualization format to a submission format 
 
-- **[`submission_to_mask/`](./submission_to_mask.py)**: Helper function converting from a submission format to a visualization format 
+- **[`submission_to_mask`](./submission_to_mask.py)**: Helper function converting from a submission format to a visualization format 
 
-- **[`Project_Report/`](./CS433_Project2_SFS.pdf)**: Project Report
+- **[`Project_Report`](./CS433_Project2_SFS.pdf)**: Project Report
 
 - **[`README`](./README.md)**: This README file
 
