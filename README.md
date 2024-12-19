@@ -36,9 +36,12 @@ The following represents our project structure:
     - **[`images`](./data/training/images/)**: Contains all the images to train our model
 
 - **[`Images`](./Images/)**: Contains any image needed for the project display in GitHub
-  - **[`Model_prediction_evolution`](./Images/Model_prediction_evolution.png)** Image used for the figure representation
+  - **[`Model_prediction_evolution`](./Images/Model_prediction_evolution.png)** Image used for the README figure representation
 
-- **[`model`](./model.ipynb)**: 'Machine learning model' 'classifier'
+- **[`old model`](./old_model/)**: Contains the old U-net models
+  - **[`additional_data`](./old_model/addittional_data.ipynb)**: Data manipulation
+  - **[`model_keras_unet`](./old_model/model_keras_unet.ipynb)**: Old U-net model: Model1 using tensorflow
+  - **[`model_pytorch_unet`](./old_model/model_pytorch_unet.ipynb)**: Old U-net model: Model2 using pytorch
 
 - **[`mask_to_submission`](./mask_to_submission.py)**: Helper function converting from a visualization format to a submission format 
 
