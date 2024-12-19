@@ -1,4 +1,4 @@
-# Road segmentation from satellite images using 'machine learning techniques'
+# Road segmentation from satellite images using U-net architecture
 
 *TO CHANGE: all instances of ' ' that adresses a certain machine learning model, to the model we have actually used as our classifier*
 
