@@ -48,7 +48,7 @@ The following represents our project structure:
 
 - **[`run`](./run.ipynb)**: Sample run of the Final Model. Predicting on the test images, visualizing it, and submitting it
 
-- **[`train`](./train.ipynb)**: Sample train of the Finlal Model. Image manipulation, model training and evaluation 
+- **[`train`](./train.ipynb)**: Sample train of the Finlal Model. Image manipulation, model training, and evaluation 
 
 - **[`utils`](./utils/)**: Contains all the necessary data maniuplation and helper functions that are needed for the saved model
   - **[`data_utils`](./utils/data_utils.py)**: Data augmentation and preprocessing function
@@ -57,15 +57,9 @@ The following represents our project structure:
   - **[`run_utils`](./utils/run_utils.py)**: Helper functions to plot images and visualize results
   - **[`submission_utils`](./utils/submission_utils.py)**: Helper functions converting from a visualization format to submission format and viceversa
 
-
-
-
-
-- **[`mask_to_submission`](./mask_to_submission.py)**: Helper function converting from a visualization format to a submission format 
-
-- **[`submission_to_mask`](./submission_to_mask.py)**: Helper function converting from a submission format to a visualization format 
-
 - **[`Project_Report`](./CS433_Project2_SFS.pdf)**: Project Report
+
+- **[`DigitalEthicsCanvas2024`](./DigitalEthicsCanvas2024.pdf)**: Annex of the report warning of the possible ethical risks from the code and the project in general 
 
 - **[`README`](./README.md)**: This README file
 
