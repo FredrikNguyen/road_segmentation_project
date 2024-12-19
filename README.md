@@ -1,7 +1,5 @@
 # Road segmentation from satellite imagery using U-net architecture
 
-*TO CHANGE: all instances of ' ' that adresses a certain machine learning model, to the model we have actually used as our classifier*
-
 ## About the project
 
 The aim of this project is to train a classifier, using Convolutional Neural Networks (CNN's), and in particular U-nets; that extracts roads in a set of aerial images aquired from GoogleMaps. From each image provided to train the model, there is a ground-truth form of that image where each pixel is labeled as road or background.  We are also provided by a set of images, from where we will test our model by producing our classifier's ground-truth version of those images. Essentially the goal reduces to train our classifier to assign a label `road = 1`, `background = 0` to each pixel. 
@@ -19,8 +17,11 @@ To do so, we have done the following:
 * Analyzing the performance of our model through the test images and using various metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. 
 * Predicting perceivable drivable regions from images of GoogleMaps.
 
-## Figure representation
+## Model evolution representation
 
+The following figure displays the comparison of the predictions obtained with different models for two images from our test image dataset. We can observe the substantial improvement from our first model, to then implementing data augmentation techniques and finally to our last model.
+
+![Model prediction evolution](https://github.com/CS-433/ml-project-2-sfs_team/tree/6bb9161dfc40055c5fc9ad94c9c96b2fde1d73df/Images/Model_prediction_evolution.png?raw=true)
 
 
 ## Project structure
