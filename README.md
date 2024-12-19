@@ -98,4 +98,13 @@ The following libraries are downloaded assuming we have installed python through
 
 ## Known Issues
 
-'To complete'
+There are two issues that we know of that concern this project:
+
+1. Our final U-net model is too big to be uploaded. Even when compressing it to a .h5 file the size was too big for it to be uploaded on GitHub. This is why we have created a text file under the `saved_model` folder with this [Kaggle link](https://www.kaggle.com/datasets/fredriknguyenepfl0/saved-model) written on it. This way we can make it available.
+
+
+2. As discussed on the report and the canvas, this project poses several ethical risks.
+    * The code itself does not pose any immediate threats but if it was used as a part of a larger system, such as road detection code for GPS, an error in our code could have much larger significance. For example, an important issue could come from confusing private roads with public roads. Therefore users should verify their predictions before using them.
+    * The images used for training all come from developed countries, such as the U.S. That could be a disadvantage when trying the model on other countries, where the roads are not as good. By manipulating the images with different colors and textures one can mitigate that risk.
+     
+
