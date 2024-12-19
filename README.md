@@ -100,7 +100,7 @@ The following libraries are downloaded assuming we have installed python through
 
 There are two issues that we know of that concern this project:
 
-1. Our final U-net model is too big to be uploaded. Even when compressing it to a .h5 file the size was too big for it to be uploaded on GitHub. This is why we have created a text file under the `saved_model` folder with this [Kaggle link](https://www.kaggle.com/datasets/fredriknguyenepfl0/saved-model) written on it. This way we can make it available.
+1. Our final U-net model is too big to be uploaded. Even when compressing it to a .h5 file the size was too big for it to be uploaded on GitHub. Therefore we have created a text file under the `saved_model` folder with this [Kaggle link](https://www.kaggle.com/datasets/fredriknguyenepfl0/saved-model) written on it. This way we can make it available.
 
 
 2. As discussed on the report and the canvas, this project poses several ethical risks.
