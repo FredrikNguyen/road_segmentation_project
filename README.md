@@ -59,7 +59,7 @@ The following represents our project structure:
 
 - **[`Project_Report`](./CS433_Project2_SFS.pdf)**: Project Report
 
-- **[`DigitalEthicsCanvas2024`](./DigitalEthicsCanvas2024.pdf)**: Annex of the report warning of the possible ethical risks from the code and the project in general 
+- **[`DigitalEthicsCanvas2024`](./DigitalEthicsCanvas2024.pdf)**: Annex of the report: Provides warning on the possible ethical risks of the code and the project in general 
 
 - **[`README`](./README.md)**: This README file
 
