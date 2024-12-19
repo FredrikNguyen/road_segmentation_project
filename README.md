@@ -47,7 +47,7 @@ The following represents our project structure:
 
 - **[`utils`](./utils/)**: Contains all the necessary data maniuplation and helper functions that are needed for the saved model
   - **[`data_utils`](./utils/data_utils.py)**: Data augmentation and preprocessing function
-  - **[`data_wrappers`](./utils/data_wrappers.py)**: Loading and cleaning data function
+  - **[`data_wrappers`](./utils/data_wrappers.py)**: Data loading and cleaning function
   - **[`general_utils`](./utils/general_utils.py)**: Helper functions to plot images and visualize results
   - **[`run_utils`](./utils/run_utils.py)**: Helper functions to plot images and visualize results
   - **[`submission_utils`](./utils/submission_utils.py)**: Helper functions converting from a visualization format to submission format and viceversa
