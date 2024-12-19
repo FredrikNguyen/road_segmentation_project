@@ -1,25 +1,21 @@
-# Road segmentation from satellite images using 'machine learning techniques'
+# Road segmentation from satellite imagery using U-net architecture
 
 *TO CHANGE: all instances of ' ' that adresses a certain machine learning model, to the model we have actually used as our classifier*
 
 ## About the project
 
-The aim of this project is to train a 'model classifier' that extracts roads in a set of aerial images aquired from GoogleMaps. From each image provided to train the model, there is a ground-truth form of that image where each pixel is labeled as road or background.  We are also provided by a set of images, from where we will test our model by producing our classifier's ground-truth version of those images. Essentially the goal reduces to train a classifier to assign a label `road = 1`, `background = 0` to each pixel.
+The aim of this project is to train a classifier, using Convolutional Neural Networks (CNN's), and in particular U-nets; that extract roads in a set of aerial images aquired from GoogleMaps. From each image provided to train the model, there is a ground-truth form of that image where each pixel is labeled as road or background.  We are also provided by a set of images, from where we will test our model by producing our classifier's ground-truth version of those images. Essentially the goal reduces to train our classifier to assign a label `road = 1`, `background = 0` to each pixel. 
 
 To do so, we have done the following:
 
-* Manipulating the images given to generate more data and better the training of our 'model classifier'. We have handled this process by using various transformation techniques provided by `torchvision.transforms`. In particular we have multiplied the amount of our training images using 18 different transformations. Some of the transformations made are the subsequent: 
+* Data augmentation to avoid over-fitting and to improve the robustness of our data and better the training of our U-net model. In      particular, performing random image manipulation with a certain probabilityb `p` by making use of the python library `Augmentor`. Some of the transformations made are the subsequent:
+    * Left or right rotations of max 20 degrees `p = 1`
+    * Mirroring images left to right or top to bottom `p = 0.5`
+    * Zooming with a 0.8 rate `p = 0.5`
+    * Left or right shears of maximum 5 degrees `p = 0.3`
+    * Distortions that can make roads appear 'wavy' `p = 0.5`
 
-    * Resizing
-    * Rotation
-    * Affine transformation
-    * Random cropping
-    * Random solarization
-    * Color jittering
-    * Horizontal flipping
-
-* *The next points to be changed*
-* Implementing the 'model'
+* Implementing the a U-net model, one of the most widely used models for image segmentation. It is a particular type of Convolutional Neural Network (CNN)
 * Analyzing the models using such figures
 * Predicting such results
 
