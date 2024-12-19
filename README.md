@@ -19,7 +19,7 @@ To do so, we have done the following:
 
 ## Model evolution representation
 
-The following figure displays the comparison of the predictions obtained with different models for two images from our test image dataset. We can observe the substantial improvement from our first model, to then implementing data augmentation techniques and finally to our last model.
+The following figure displays the comparison of the predictions obtained with different models for two images from our test image dataset. We can observe the substantial improvement from our first model, to then implementing data augmentation techniques, and finally to our last model.
 
 ![Model prediction evolution](https://github.com/CS-433/ml-project-2-sfs_team/tree/6bb9161dfc40055c5fc9ad94c9c96b2fde1d73df/Images/Model_prediction_evolution.png?raw=true)
 
@@ -28,7 +28,15 @@ The following figure displays the comparison of the predictions obtained with di
 
 The following represents our project structure:
 
-- **[`addittional_data/`](./addittional_data.ipynb)**: Image manipulation to generate an extensive training data set
+
+- **[`data/`](./data/)**: Contains the project's data
+  - **[`test/`](./data/test/)**: Contains all the images to test our model
+  - **[`training/`](./data/training/)**: Contains all the data necessary to train our model
+    - **[`gorundtruth/`](./data/training/groundtruth/)**: Contains the real ground-truth form of the training images
+    - **[`images/`](./data/training/images/)**: Contains all the images to train our model
+
+- **[`Images/`](./Images/)**: Contains any image needed for the project display in GitHub
+  - **[`Model_prediction_evolution/`](./Images/Model_prediction_evolution.png)** Image used for the figure representation
 
 - **[`model/`](./model.ipynb)**: 'Machine learning model' 'classifier'
 
