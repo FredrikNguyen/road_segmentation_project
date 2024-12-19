@@ -43,7 +43,16 @@ The following represents our project structure:
   - **[`model_keras_unet`](./old_model/model_keras_unet.ipynb)**: First U-net model: Model1 using tensorflow
   - **[`model_pytorch_unet`](./old_model/model_pytorch_unet.ipynb)**: Second U-net model: Model2 using pytorch
 
-- **[`saved_model`](./saved_model/)**: Contains the new U-net model, we cannot currently uploaded as it is too heavy
+- **[`saved_model`](./saved_model/)**: Contains the new U-net model: Final Model using tensorflow. We cannot currently upload it as it is too heavy
+
+- **[`utils`](./utils/)**: Contains all the necessary data maniuplation and helper functions that are needed for the saved model
+  - **[`data_utils`](./utils/data_utils.py)**: Data augmentation and preprocessing function
+  - **[`data_wrappers`](./utils/data_wrappers.py)**: Loading and cleaning data function
+  - **[`general_utils`](./utils/general_utils.py)**: Helper functions to plot images and visualize results
+  - **[`run_utils`](./utils/run_utils.py)**: Helper functions to plot images and visualize results
+  - **[`submission_utils`](./utils/submission_utils.py)**: Helper functions converting from a visualization format to submission format and viceversa
+
+
 
 
 
