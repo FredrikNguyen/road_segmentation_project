@@ -15,8 +15,8 @@ To do so, we have done the following:
     * Left or right shears of maximum 5 degrees `p = 0.3`
     * Distortions that can make roads appear 'wavy' `p = 0.5`
 
-* Implementing a U-net classifier model, a particular type of CNN and one of the most widely used models for image segmentation, while comparing the results of our implementation with the real ground truth form of those training images.
-* Analyzing the model through the test images and using various performance metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. 
+* Implementing a U-net classifier model, a particular type of CNN and one of the most widely used models for image segmentation. While comparing the results of our implementation with the real ground truth form of those training images.
+* Analyzing the performance of our model through the test images and using various metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. 
 * Predicting perceivable drivable regions from images of GoogleMaps.
 
 ## Figure representation
