@@ -8,17 +8,16 @@ The aim of this project is to train a classifier, using Convolutional Neural Net
 
 To do so, we have done the following:
 
-* Data augmentation to avoid over-fitting and to improve the robustness of our data and better the training of our U-net model. In      particular, performing random image manipulation with a certain probabilityb `p` by making use of the python library `Augmentor`. Some of the transformations made are the subsequent:
-    * Left or right rotations of max 20 degrees `p = 1`
+* Data augmentation to avoid over-fitting and to improve the robustness of the data and better the training of our U-net model. In      particular, performing random image manipulation with a certain probability `p` by making use of the python library `Augmentor`. Some of the transformations made are the subsequent:
+    * Left or right rotations of maximum 20 degrees `p = 1`
     * Mirroring images left to right or top to bottom `p = 0.5`
     * Zooming with a 0.8 rate `p = 0.5`
     * Left or right shears of maximum 5 degrees `p = 0.3`
     * Distortions that can make roads appear 'wavy' `p = 0.5`
 
-* Implementing the a U-net model, one of the most widely used models for image segmentation. It is a particular type of Convolutional Neural Network (CNN)
-* Analyzing the models using such figures
-* Predicting such results
-
+* Implementing a U-net classifier, a particular type of CNN and one of the most widely used models for image segmentation, and training it using the images we were given.
+* Analyzing the model and using various performance metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. While comparing the results of our model with the real ground truth form of those images, which the model is trained on.
+* Predicting perceivable drivable regions from images of GoogleMaps.
 
 ## Figure representation
 
