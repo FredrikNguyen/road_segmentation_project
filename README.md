@@ -13,7 +13,7 @@ To do so, we have done the following:
     * Left or right shears of maximum 5 degrees `p = 0.3`
     * Distortions that can make roads appear 'wavy' `p = 0.5`
 
-* Implementing a U-net classifier model, a particular type of CNN and one of the most widely used models for image segmentation. While comparing the results of our implementation with the real ground truth form of those training images.
+* Implementing a U-net classifier model, a particular type of CNN and one of the most widely used models for image segmentation. While evaluating the results of our implementation with the real ground truth form of those training images.
 * Analyzing the performance of our model through the test images and using various metrics like training and validation loss, dice loss, binary focal loss, combination loss, intersection over union (IOU) score, and F1 score to keep improving our classifier. 
 * Predicting perceivable drivable regions from images of GoogleMaps.
 
@@ -43,7 +43,12 @@ The following represents our project structure:
   - **[`model_keras_unet`](./old_model/model_keras_unet.ipynb)**: First U-net model: Model1 using tensorflow
   - **[`model_pytorch_unet`](./old_model/model_pytorch_unet.ipynb)**: Second U-net model: Model2 using pytorch
 
-- **[`saved_model`](./saved_model/)**: Contains the new U-net model: Final Model using tensorflow. We cannot currently upload it as it is too heavy
+- **[`saved_model`](./saved_model/)**: Contains the new U-net model using tensorflow
+  - **[`Final_Model`](./saved_model/Final_Model.txt)**: [Kaggle link](https://www.kaggle.com/datasets/fredriknguyenepfl0/saved-model) to download Final Model. We cannot currently upload it in GitHub as it is too heavy. 
+
+- **[`run`](./run.ipynb)**: Sample run of the Final Model. Predicting on the test images, visualizing it, and submitting it
+
+- **[`train`](./train.ipynb)**: Sample train of the Finlal Model. Image manipulation, model training and evaluation 
 
 - **[`utils`](./utils/)**: Contains all the necessary data maniuplation and helper functions that are needed for the saved model
   - **[`data_utils`](./utils/data_utils.py)**: Data augmentation and preprocessing function
